@@ -72,7 +72,7 @@ if(isset($_POST['create'])){
       if($iquery){
         
         $subject = "Email Activation";
-        $body = "Hi $username, Click here to activate your account http://localhost/books%20pdf/active.php?token=$token";
+        $body = "Hi $username, Click here to activate your account http://localhost/pdf%20agile/active.php?token=$token";
        $sender_email = "From: PDF AGILE";
 
         if(mail( $email,$subject,$body,$sender_email)){
